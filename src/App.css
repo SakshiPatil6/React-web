@@ -1,38 +1,59 @@
-.App {
-  text-align: center;
+.navbar{
+  background-color: #e3f2fd;
+ }
+ .logo{
+  height: 7vh;
+  width: 3vw;
+ }
+ *{
+  padding: 0;
+  margin: 0;
+ }
+ .col1{
+  padding: 0%;
+  height: 50vh;
+  width: 50vw;
+ }
+ .col2{
+  padding: 0%;
+ }
+ .logo{
+  height: 24vh;
+  width: 12vw;
+  float: left;
+  margin-left: 5vw;
+ }
+.btn{
+  margin: 2vh;
+  float: right;
+  margin-top: 9vh;
+  color: black;
+  font-family: sans-serif,'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS';
+  font-size: medium;
+  border-radius: 0%;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.btn1{
+  margin-right: 5vw;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+.btn:hover{
   color: white;
+  background-color: green;
 }
-
-.App-link {
-  color: #61dafb;
+.writeup{
+  margin: 15vh;
+  margin-top: 25vh;
+  font-size: x-large;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.para{
+  font-size: medium;
+}
+.heading{
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.image{
+  height: 120vh;
+  width: 100vw;
+}
+.footer{
+  width: 100vw;
 }
